@@ -1,2 +1,2 @@
-# ma_java
+# my_java
 Exercising Java
