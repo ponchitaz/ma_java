@@ -1,2 +1,2 @@
 # my_java
-Exercising Java
+java practice
