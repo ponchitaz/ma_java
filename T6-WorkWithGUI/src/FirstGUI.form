@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FirstGUI">
+  <grid id="27dc6" binding="whatIsIt" custom-create="true" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1540" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised" title="I am the border!" title-justification="3"/>
+    <children>
+      <component id="f4390" class="javax.swing.JButton" binding="pushIt" custom-create="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="5" height="3"/>
+            <preferred-size width="15" height="7"/>
+            <maximum-size width="30" height="14"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1525325"/>
+          <enabled value="false"/>
+          <foreground color="-9866783"/>
+          <text value="Push me!"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="aca44" class="javax.swing.JTextArea" binding="bigText" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="2" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Let me text it for you"/>
+        </properties>
+      </component>
+      <component id="56bc3" class="javax.swing.JRadioButton" binding="radioTwo" custom-create="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="This is bad"/>
+        </properties>
+      </component>
+      <component id="c55b8" class="javax.swing.JRadioButton" binding="radioOne" custom-create="true">
+        <constraints>
+          <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="This is good"/>
+        </properties>
+      </component>
+      <component id="8e728" class="javax.swing.JLabel" binding="theLabel" custom-create="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="2" indent="5" use-parent-layout="false">
+            <minimum-size width="70" height="100"/>
+            <preferred-size width="150" height="200"/>
+            <maximum-size width="250" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <text value="This is a long text area where the user can not type anything so I have to fill it for my task so it could look like it is a normal text which can make any sence (but in fact it can't, so it's absolutelly useless). I just try to come up with a long speach, don't judje me!"/>
+        </properties>
+      </component>
+      <scrollpane id="c6c27">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
